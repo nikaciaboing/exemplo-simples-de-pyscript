@@ -1,0 +1,22 @@
+<!--código Exemplo: Um exemplo básico de uso do PyScript seria algo assim:-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PyScript Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css">
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+<body>
+    <py-script>
+        import math
+        def calcula_raiz_Quadrada(x):
+            return math.sqrt(x)
+        
+        num = float(input("Digite um número: "))
+        result = calcula_raiz_Quadrada(num)
+        print(f"A raiz quadrada de {num} é {result}")
+    </py-script>
+</body>
+</html>
